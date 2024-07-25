@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title><%= title %></title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      text-decoration: none;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 2rem;
+    }
+
+    header {
+      background-color: #27ef74;
+      color: #fff;
+      padding: 1rem 0;
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    header h1 {
+      margin-bottom: 0.5rem;
+    }
+
+    .content {
+      background: #fff;
+      padding: 2rem;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .content h2 {
+      margin-bottom: 1rem;
+      color: #a41414;
+    }
+
+    .api-details,
+    .author-info {
+      margin-bottom: 2rem;
+    }
+
+    .api-details ul,
+    .author-info ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .api-details li,
+    .author-info li {
+      background: #e9e9e9;
+      margin: 0.5rem 0;
+      padding: 0.5rem;
+      border-radius: 4px;
+    }
+
+    .footer {
+      text-align: center;
+      margin-top: 2rem;
+      color: #888;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Welcome to <%= title %></h1>
+    <p>Your go-to API for all your needs</p>
+  </header>
+
+  <div class="container">
+    <div class="content">
+      <section class="api-details">
+        <h2>API Details</h2>
+        <ul>
+          <li><strong>Endpoint 1:</strong> /api/v1/resource1 - Description of resource1</li>
+          <li><strong>Endpoint 2:</strong> /api/v1/resource2 - Description of resource2</li>
+          <li><strong>Endpoint 3:</strong> /api/v1/resource3 - Description of resource3</li>
+        </ul>
+      </section>
+
+      <section class="documentation">
+        <h2>Documentation</h2>
+        <ul>
+          <li><a href="https://yourapi.docs/resource1">Resource 1 Docs</a></li>
+          <li><a href="https://yourapi.docs/resource2">Resource 2 Docs</a></li>
+          <li><a href="https://yourapi.docs/resource3">Resource 3 Docs</a></li>
+        </ul>
+      </section>
+
+      <section class="author-info">
+        <h2>Author</h2>
+        <ul>
+          <li><strong>Name:</strong>Abhishek Kumar Sahani</li>
+          <li><strong>Email:</strong> <a href="mailto:sahniak56@gmail.com">sahniak56@gmail.com</a></li>
+          <li><strong>GitHub:</strong> <a href="https://github.com/A1bhishekk">A1bhishekk</a></li>
+        </ul>
+      </section>
+    </div>
+  </div>
+
+  <div class="footer">
+    <p>&copy; 2024 Technical Abhi. All rights reserved.</p>
+  </div>
+</body>
+
+</html>
